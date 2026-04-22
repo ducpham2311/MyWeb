@@ -3,8 +3,11 @@ THIẾT KẾ WEBSITE “BẢO VỆ MÔI TRƯỜNG”
 - Giới thiệu về bảo vệ môi trường
 - Nâng cao ý thức người dùng
 - Kêu gọi hành động
+- 
 2. Xác định cấu trúc website
+  
 Website gồm 6 trang chính:
+
 -Trang chủ
 -Giới thiệu
 -Vấn đề môi trường
@@ -12,6 +15,7 @@ Website gồm 6 trang chính:
 -Hành động
 -Liên hệ
 3. Nội dung từng trang
+  
 3.1 Trang chủ
 -Giới thiệu ngắn
 -Nút điều hướng
