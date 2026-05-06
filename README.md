@@ -1,4 +1,7 @@
 THIẾT KẾ WEBSITE “BẢO VỆ MÔI TRƯỜNG
+
+ứng dụng: canva
+
 1. Xác định mục tiêu
 - Giới thiệu về bảo vệ môi trường
 - Nâng cao ý thức người dùng
