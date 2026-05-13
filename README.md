@@ -83,42 +83,42 @@ Website giúp tuyên truyền và nâng cao ý thức bảo vệ môi trường,
 <img width="1920" height="1080" alt="Ảnh chụp màn hình (1639)" src="https://github.com/user-attachments/assets/5c98d35a-c873-4bf0-8391-f90f42658082" />
 <img width="1920" height="1080" alt="Ảnh chụp màn hình (1640)" src="https://github.com/user-attachments/assets/2948ec8c-ab30-4ae3-b10f-5c5202227427" />
 <img width="1920" height="1080" alt="Ảnh chụp màn hình (1641)" src="https://github.com/user-attachments/assets/f181fa72-dc55-4295-9a1c-fb483637a0a6" />
-<img width="1920" height="1080" alt="Ảnh chụp màn hình (1642)" src="https://github.com/user-attachments/assets/c58359a6-e27e-48fe-ba11-2ea13a00f751" />
-<img width="1920" height="1080" alt="Ảnh chụp màn hình (1643)" src="https://github.com/user-attachments/assets/1aa87832-3dc4-4b34-ae0d-3cc7b4903508" />
-<img width="1920" height="1080" alt="Ảnh chụp màn hình (1644)" src="https://github.com/user-attachments/assets/1845e25e-7257-4910-9cf7-aa8f3b27bca0" />
-<img width="1920" height="1080" alt="Ảnh chụp màn hình (1645)" src="https://github.com/user-attachments/assets/77015623-3c11-4962-ae0a-c29ff9f9f11f" />
-<img width="1920" height="1080" alt="Ảnh chụp màn hình (1646)" src="https://github.com/user-attachments/assets/37019489-5f1f-4d9e-ab4d-fcd433a0e097" />
-
-
 🟢 1. Trang chủ
 
 Trang chủ là phần đầu tiên người dùng nhìn thấy. Gồm tiêu đề lớn về bảo vệ môi trường, một đoạn mô tả ngắn và nút kêu gọi hành động. Bên dưới là các mục nhỏ như môi trường, chung tay và tương lai.
 
 👉 Chức năng: Gây ấn tượng ban đầu, thu hút người dùng và điều hướng sang các trang khác.
 
+
+<img width="1920" height="1080" alt="Ảnh chụp màn hình (1642)" src="https://github.com/user-attachments/assets/c58359a6-e27e-48fe-ba11-2ea13a00f751" />
 🟢 2. Trang giới thiệu
 
 Trang này trình bày nội dung website nói về bảo vệ môi trường, kèm theo các ý chính về tầm quan trọng của môi trường đối với con người và cuộc sống.
 
 👉 Chức năng: Cung cấp thông tin cơ bản, giúp người dùng hiểu mục đích website.
 
+<img width="1920" height="1080" alt="Ảnh chụp màn hình (1643)" src="https://github.com/user-attachments/assets/1aa87832-3dc4-4b34-ae0d-3cc7b4903508" />
 🟢 3. Trang vấn đề môi trường
 
 Trang hiển thị các vấn đề chính như ô nhiễm không khí, ô nhiễm nước và rác thải nhựa. Mỗi vấn đề được trình bày trong một khung riêng kèm mô tả ngắn.
 
 👉 Chức năng: Nêu rõ thực trạng môi trường hiện nay.
 
+<img width="1920" height="1080" alt="Ảnh chụp màn hình (1644)" src="https://github.com/user-attachments/assets/1845e25e-7257-4910-9cf7-aa8f3b27bca0" />
 🟢 4. Trang giải pháp
 
 Trang đưa ra các giải pháp như tái chế, trồng cây và tiết kiệm tài nguyên. Nội dung được chia thành các khối rõ ràng, dễ đọc.
 
 👉 Chức năng: Đưa ra hướng giải quyết cho các vấn đề môi trường.
 
+<img width="1920" height="1080" alt="Ảnh chụp màn hình (1645)" src="https://github.com/user-attachments/assets/77015623-3c11-4962-ae0a-c29ff9f9f11f" />
 🟢 5. Trang hành động
 
 Trang gồm form đăng ký tham gia và danh sách các hoạt động bảo vệ môi trường. Người dùng có thể nhập thông tin để tham gia.
 
 👉 Chức năng: Kêu gọi người dùng hành động và tham gia thực tế.
+<img width="1920" height="1080" alt="Ảnh chụp màn hình (1646)" src="https://github.com/user-attachments/assets/37019489-5f1f-4d9e-ab4d-fcd433a0e097" />
+
 
 🟢 6. Trang liên hệ
 
