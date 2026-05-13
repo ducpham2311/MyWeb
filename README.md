@@ -81,7 +81,9 @@ Website giúp tuyên truyền và nâng cao ý thức bảo vệ môi trường,
 
 
 <img width="1920" height="1080" alt="Ảnh chụp màn hình (1639)" src="https://github.com/user-attachments/assets/5c98d35a-c873-4bf0-8391-f90f42658082" />
+-thông tin người xây dựng trang web và mục đích thiếp kế trang web
 <img width="1920" height="1080" alt="Ảnh chụp màn hình (1640)" src="https://github.com/user-attachments/assets/2948ec8c-ab30-4ae3-b10f-5c5202227427" />
+-tiện ích
 <img width="1920" height="1080" alt="Ảnh chụp màn hình (1641)" src="https://github.com/user-attachments/assets/f181fa72-dc55-4295-9a1c-fb483637a0a6" />
 🟢 1. Trang chủ
 
