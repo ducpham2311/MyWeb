@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Xanh Việt | Bảo vệ Môi trường</title>
+    <!-- Font Awesome 6 & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+    <!-- CSS riêng -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoXanh</span>
+                </div>
+                <ul class="nav-links">
+                    <li><button class="nav-btn" data-page="home">Trang chủ</button></li>
+                    <li><button class="nav-btn" data-page="about">Giới thiệu</button></li>
+                    <li><button class="nav-btn" data-page="issues">Vấn đề</button></li>
+                    <li><button class="nav-btn" data-page="solutions">Giải pháp</button></li>
+                    <li><button class="nav-btn" data-page="action">Hành động</button></li>
+                    <li><button class="nav-btn" data-page="contact">Liên hệ</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- TRANG CHỦ -->
+            <div id="page-home" class="page active-page">
+                <div class="hero">
+                    <h1>🏝️ Bảo vệ môi trường <br> Vì một tương lai xanh</h1>
+                    <p
+                        style="font-size: 1.2rem; margin: 20px 0; max-width: 700px; margin-left: auto; margin-right: auto;">
+                        Cùng nhau hành động hôm nay – giảm rác thải, bảo tồn thiên nhiên, sống xanh mỗi ngày.</p>
+                    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                        <button class="btn-primary" id="exploreBtn"><i class="fas fa-seedling"></i> Khám phá
+                            ngay</button>
+                        <button class="btn-outline" id="joinNowBtn"><i class="fas fa-hand-peace"></i> Chung tay hành
+                            động</button>
+                    </div>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="badge-icon"><i class="fas fa-globe-asia"></i></div>
+                        <h4>Môi trường trong lành</h4>
+                        <p>Không khí sạch, nguồn nước an toàn là nền tảng của sức khỏe cộng đồng và hệ sinh thái bền
+                            vững.</p>
+                    </div>
+                    <div class="card">
+                        <div class="badge-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                        <h4>Chung tay bảo vệ</h4>
+                        <p>Mỗi hành động nhỏ, từ phân loại rác đến trồng cây, đều tạo nên thay đổi lớn.</p>
+                    </div>
+                    <div class="card">
+                        <div class="badge-icon"><i class="fas fa-children"></i></div>
+                        <h4>Tương lai bền vững</h4>
+                        <p>Hãy để thế hệ mai sau được thừa hưởng một hành tinh xanh, sạch, đẹp.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TRANG GIỚI THIỆU -->
+            <div id="page-about" class="page">
+                <h2>🌱 Giới thiệu</h2>
+                <div
+                    style="background: white; border-radius: 36px; padding: 36px; box-shadow: var(--shadow-sm); margin-top: 24px;">
+                    <h3>Website Bảo vệ Môi trường là gì?</h3>
+                    <p style="font-size: 1.05rem; margin: 20px 0; line-height: 1.6;">Chúng tôi xây dựng nền tảng này
+                        nhằm <strong>nâng cao nhận thức</strong> cộng đồng về các vấn đề môi trường cấp bách, cung cấp
+                        giải pháp thiết thực và kêu gọi hành động cụ thể. Từ ô nhiễm không khí, rác thải nhựa đến biến
+                        đổi khí hậu – mỗi người đều có thể góp sức.</p>
+                    <h3>Tầm quan trọng của môi trường</h3>
+                    <p>Môi trường không chỉ là không gian sống mà còn cung cấp nguồn tài nguyên thiên yếu. Suy thoái môi
+                        trường dẫn đến thiên tai, dịch bệnh và khủng hoảng sinh thái. Bảo vệ tự nhiên chính là bảo vệ
+                        chính chúng ta.</p>
+                    <div style="margin-top: 24px; background: #eef5ea; padding: 20px; border-radius: 28px;">
+                        <i class="fas fa-quote-left" style="color: #2b7a3e; font-size: 1.8rem;"></i>
+                        <p style="font-style: italic; margin: 10px 0 0;">“Hãy sống hòa hợp với thiên nhiên – tương lai
+                            của hành tinh nằm trong tay chúng ta.”</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TRANG VẤN ĐỀ MÔI TRƯỜNG -->
+            <div id="page-issues" class="page">
+                <h2>⚠️ Thực trạng đáng báo động</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <i class="fas fa-smog fa-3x"></i>
+                        <h4>Ô nhiễm không khí</h4>
+                        <p>Khói bụi từ phương tiện, nhà máy và đốt rác gây ra hàng triệu ca bệnh hô hấp mỗi năm. Bụi mịn
+                            PM2.5 vượt ngưỡng an toàn.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-water fa-3x"></i>
+                        <h4>Ô nhiễm nguồn nước</h4>
+                        <p>Hóa chất độc hại, rác thải công nghiệp và sinh hoạt làm suy thoái sông ngòi, ảnh hưởng sinh
+                            vật thủy sinh và sức khỏe con người.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-trash-alt fa-3x"></i>
+                        <h4>Rác thải nhựa</h4>
+                        <p>Mỗi năm có 8 triệu tấn nhựa đổ ra đại dương. Túi nilon, ống hút nhựa phân hủy hàng trăm năm,
+                            gây chết sinh vật biển.</p>
+                    </div>
+                </div>
+                <div
+                    style="background: #fff7e5; border-radius: 28px; padding: 20px; border-left: 6px solid var(--primary-green);">
+                    <p><i class="fas fa-chart-line"></i> <strong>Số liệu 2025:</strong> Hơn 90% dân số đô thị hít thở
+                        không khí ô nhiễm, lượng rác thải nhựa toàn cầu tăng gấp đôi trong 10 năm qua.</p>
+                </div>
+            </div>
+
+            <!-- TRANG GIẢI PHÁP -->
+            <div id="page-solutions" class="page">
+                <h2>🌿 Giải pháp bền vững</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <i class="fas fa-recycle fa-3x"></i>
+                        <h4>Tái chế & phân loại rác</h4>
+                        <p>Phân loại rác tại nguồn, tái chế chai nhựa, giấy, kim loại giúp giảm ⅓ lượng rác chôn lấp.
+                            Hãy bắt đầu từ 3R: Reduce, Reuse, Recycle.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-tree fa-3x"></i>
+                        <h4>Trồng cây xanh</h4>
+                        <p>Mỗi cây xanh hấp thụ CO₂, cung cấp oxy, chống xói mòn. Chung tay phủ xanh đồi trọc, tạo không
+                            gian sống trong lành.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-lightbulb fa-3x"></i>
+                        <h4>Tiết kiệm tài nguyên</h4>
+                        <p>Sử dụng năng lượng tái tạo, tắt điện khi không dùng, hạn chế nước lãng phí. Hành vi nhỏ tiết
+                            kiệm lớn cho trái đất.</p>
+                    </div>
+                </div>
+                <div style="margin-top: 20px; text-align: center;">
+                    <button class="btn-primary" id="actionFromSolutions"><i class="fas fa-calendar-check"></i> Tham gia
+                        chiến dịch xanh</button>
+                </div>
+            </div>
+
+            <!-- TRANG HÀNH ĐỘNG -->
+            <div id="page-action" class="page">
+                <h2>🤝 Hành động vì môi trường</h2>
+                <div class="two-columns">
+                    <div>
+                        <div class="info-block" style="background: white; border: 1px solid #d9ead8;">
+                            <h3><i class="fas fa-user-plus"></i> Đăng ký tham gia</h3>
+                            <form id="registerForm">
+                                <div class="form-group"><input type="text" placeholder="Họ và tên" id="regName"
+                                        required></div>
+                                <div class="form-group"><input type="email" placeholder="Email của bạn" id="regEmail"
+                                        required></div>
+                                <div class="form-group"><select id="regActivity">
+                                        <option value="">Chọn hoạt động yêu thích</option>
+                                        <option>Thu gom rác thải tại công viên</option>
+                                        <option>Trồng cây xanh cộng đồng</option>
+                                        <option>Hội thảo tái chế sáng tạo</option>
+                                        <option>Chiến dịch chống rác thải nhựa</option>
+                                    </select></div>
+                                <button type="submit" class="btn-primary" style="width:100%">Cam kết hành động <i
+                                        class="fas fa-heart"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="background: #eef3ea; border-radius: 28px; padding: 24px;">
+                            <h3><i class="fas fa-list-check"></i> Hoạt động bảo vệ môi trường</h3>
+                            <ul class="activity-list">
+                                <li><i class="fas fa-trash-alt"></i> Dọn sạch bãi biển, hồ nước</li>
+                                <li><i class="fas fa-seedling"></i> Trồng 1 triệu cây xanh đô thị</li>
+                                <li><i class="fas fa-charging-station"></i> Tiết kiệm năng lượng – tắt đèn 1 giờ</li>
+                                <li><i class="fas fa-recycle"></i> Đổi rác nhựa lấy cây xanh</li>
+                            </ul>
+                            <p style="margin-top: 15px;">✨ Mỗi tuần chúng tôi tổ chức sự kiện – hãy đăng ký để nhận
+                                thông báo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TRANG LIÊN HỆ -->
+            <div id="page-contact" class="page">
+                <h2>📬 Liên hệ với chúng tôi</h2>
+                <div class="two-columns">
+                    <div class="info-block">
+                        <h3>Thông tin kết nối</h3>
+                        <div class="contact-detail"><i class="fas fa-envelope"></i> <span>bvmt@ecoxanh.org.vn</span>
+                        </div>
+                        <div class="contact-detail"><i class="fas fa-phone-alt"></i> <span>024 7300 8888 - 0912 345
+                                678</span></div>
+                        <div class="contact-detail"><i class="fas fa-map-marker-alt"></i> <span>Số 12, phố Xanh, quận
+                                Bảo Vệ, Hà Nội</span></div>
+                        <div class="contact-detail"><i class="fas fa-clock"></i> <span>Thứ 2 - Thứ 7: 8:00 -
+                                17:30</span></div>
+                    </div>
+                    <div>
+                        <form id="contactForm">
+                            <div class="form-group"><input type="text" placeholder="Họ tên" id="contactName" required>
+                            </div>
+                            <div class="form-group"><input type="email" placeholder="Địa chỉ email" id="contactEmail"
+                                    required></div>
+                            <div class="form-group"><textarea rows="4" placeholder="Nội dung góp ý hoặc câu hỏi..."
+                                    id="contactMsg" required></textarea></div>
+                            <button type="submit" class="btn-primary">Gửi tin nhắn <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2025 EcoXanh – Vì một Việt Nam xanh, sạch, đẹp ♻️</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Xử lý chuyển trang (6 trang)
+        const pages = ['home', 'about', 'issues', 'solutions', 'action', 'contact'];
+        const pageElements = {
+            home: document.getElementById('page-home'),
+            about: document.getElementById('page-about'),
+            issues: document.getElementById('page-issues'),
+            solutions: document.getElementById('page-solutions'),
+            action: document.getElementById('page-action'),
+            contact: document.getElementById('page-contact')
+        };
+
+        function showPage(pageId) {
+            for (let p of pages) {
+                pageElements[p].classList.remove('active-page');
+            }
+            pageElements[pageId].classList.add('active-page');
+            const btns = document.querySelectorAll('.nav-btn');
+            btns.forEach(btn => {
+                if (btn.getAttribute('data-page') === pageId) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const page = btn.getAttribute('data-page');
+                showPage(page);
+            });
+        });
+
+        const exploreBtn = document.getElementById('exploreBtn');
+        if (exploreBtn) exploreBtn.addEventListener('click', () => showPage('about'));
+        const joinNow = document.getElementById('joinNowBtn');
+        if (joinNow) joinNow.addEventListener('click', () => showPage('action'));
+        const actionSol = document.getElementById('actionFromSolutions');
+        if (actionSol) actionSol.addEventListener('click', () => showPage('action'));
+
+        const registerForm = document.getElementById('registerForm');
+        if (registerForm) {
+            registerForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = document.getElementById('regName').value.trim();
+                const email = document.getElementById('regEmail').value.trim();
+                const activity = document.getElementById('regActivity').value;
+                if (!name || !email) {
+                    alert("Vui lòng nhập họ tên và email để đăng ký tham gia 🌱");
+                    return;
+                }
+                if (!activity) {
+                    alert("Hãy chọn một hoạt động cụ thể bạn muốn tham gia nhé!");
+                    return;
+                }
+                alert(`Cảm ơn ${name} đã đăng ký tham gia "${activity}". Chúng tôi sẽ gửi thông tin chi tiết qua email ${email}. Hãy cùng hành động vì môi trường! 🌍`);
+                registerForm.reset();
+            });
+        }
+
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const conName = document.getElementById('contactName').value.trim();
+                const conEmail = document.getElementById('contactEmail').value.trim();
+                const conMsg = document.getElementById('contactMsg').value.trim();
+                if (!conName || !conEmail || !conMsg) {
+                    alert("Vui lòng điền đầy đủ thông tin họ tên, email và nội dung tin nhắn.");
+                    return;
+                }
+                alert(`🎉 Cảm ơn ${conName}, chúng tôi đã nhận được tin nhắn của bạn. Đội ngũ EcoXanh sẽ phản hồi sớm nhất!`);
+                contactForm.reset();
+            });
+        }
+
+        // Active mặc định trang chủ
+        const initialActive = document.querySelector('.nav-btn[data-page="home"]');
+        if (initialActive) initialActive.classList.add('active');
+    </script>
+</body>
+
+</html>
